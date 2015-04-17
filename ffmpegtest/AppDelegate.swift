@@ -15,6 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        Tutorial1().main(NSBundle.mainBundle().pathForResource("sample", ofType: "m4v")!)
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
